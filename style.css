@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    overflow-y: overlay;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.281);
+}
+
+#index-body {
+    background-image: linear-gradient(to left, rgba(48, 14, 19, 0.644), rgba(11, 55, 70, 0.603)) ,url("assets/sakura-zed.jpg");
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 40rem;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#main-name-container {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.45rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-size: 3.5em;
+}
